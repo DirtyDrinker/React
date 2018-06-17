@@ -1,3 +1,55 @@
 body {
     background-color: black;
 }
+
+.frame {
+    height: auto;
+    width: 400px;
+    margin: auto;
+    padding: 1%;
+    border: 1px solid rgba(25, 133, 160, 0.623);
+    border-radius: 2px;
+}
+
+.screen {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.screen-row input {
+    width: 100%;
+    height: 6%;
+    text-align: right;
+    font-size: 100%;
+}
+
+.calculator-title {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+
+.button{
+    height: 10%;
+    width: 16.65%;
+    font-size: 100%;
+}
+
+.button.action-button{
+    background-color: aqua;
+}
+
+.button.action-button[value="Cls"]{
+    background-color: yellow;
+    width: 24.975%;
+}
+
+.button.action-button[value="="]{
+    background-color: greenyellow;
+    width: 24.975%;
+}
+
+.button.input-button{
+    background-color: cornflowerblue;
+}
+
